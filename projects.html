@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Godwin Simon Nallah</title>
+    <meta name="description" content="Selected work by Godwin Simon Nallah, presented in a clean and minimalist layout.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+   <nav class="navbar">
+        <div class="logo">GODWIN<b>.</b></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main class="section">
+        <div class="container">
+            <section class="intro-block">
+                <p class="eyebrow">Projects</p>
+                <h1>A short list of work that keeps the focus on the idea.</h1>
+                <p class="lede">
+                    Rather than filling the page with big cards, I'm showing the work as a simple list so the content,
+                    stack, and outcome stay easy to read.
+                </p>
+            </section>
+
+            <section id="projects" class="project-section">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <!-- Filter Controls -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="development">Development</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-category="development">
+                <div class="project-img-placeholder">
+                    <img src="./Assests/images/project1.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>About page </h3>
+                    <p>A responsive about page for showcasing personal information and experience.</p>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card" data-category="design">
+                <div class="project-img-placeholder">
+                    <img src="./Assests/images/planer1.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>Academic Planner</h3>
+                    <p>A minimalist design for organizing academic tasks and deadlines.</p>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card" data-category="development">
+                <div class="project-img-placeholder">
+                    <img src="./Assests/images/portfolio.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>portfolio site</h3>
+                    <p>portfolio website showcasing my work and skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+            <div class="project-list project-list-spaced">
+                <article class="project-row">
+                    <div>
+                        <h2>Portfolio site refresh</h2>
+                        <p>A cleaner multi-page portfolio with a restrained palette, better hierarchy, and less visual noise.</p>
+                    </div>
+                    <div class="project-meta-group">
+                        <p class="project-meta">HTML / CSS</p>
+                        <p class="project-meta">Responsive layout</p>
+                    </div>
+                </article>
+
+                <article class="project-row">
+                    <div>
+                        <h2>Academic planner</h2>
+                        <p>A lightweight task tool for study planning with quick entry, completion toggles, and local saving.</p>
+                    </div>
+                    <div class="project-meta-group">
+                        <p class="project-meta">JavaScript</p>
+                        <p class="project-meta">Local storage</p>
+                    </div>
+                </article>
+
+                <article class="project-row">
+                    <div>
+                        <h2>Landing page study</h2>
+                        <p>An exercise in spacing and hierarchy, built to feel realistic without leaning on heavy graphics.</p>
+                    </div>
+                    <div class="project-meta-group">
+                        <p class="project-meta">UI study</p>
+                        <p class="project-meta">Minimal aesthetic</p>
+                    </div>
+                </article>
+            </div>
+
+            <section class="divider-block">
+                <div class="section-heading compact">
+                    <p class="eyebrow">Notes</p>
+                    <h2>These projects show.</h2>
+                </div>
+                <p>
+                    They demonstrate my interest in clean structure, responsive layouts, 
+                    and interfaces that respect the user. The work is about clarity, accessibility,
+                    and thoughtful interactions that make everyday tasks feel effortless.            
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <p>Godwin Simon Nallah</p>
+            <p>Selected work</p>
+        </div>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner | Godwin Simon Nallah</title>
+    <meta name="description" content="A simple academic planner for tasks and deadlines.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">GODWIN<b>.</b></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main class="section">
+        <div class="container planner-layout">
+            <section class="intro-block">
+                <p class="eyebrow">Planner</p>
+                <h1>A small workspace for school tasks.</h1>
+                <p class="lede">
+                 Add a task, mark it complete, and keep the list focused.
+                </p>
+            </section>
+
+            <section class="planner-panel">
+                <div class="add-task">
+                    <input type="text" id="taskInput" placeholder="Add a new task..." aria-label="Add a new task">
+                    <button type="button" onclick="addTask()" class="button button-primary">Add</button>
+                </div>
+
+                <ul id="taskList" class="task-list" aria-label="Task list"></ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <p>Godwin Simon Nallah</p>
+            <p>Academic planner</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+</body>
+
+</html>
